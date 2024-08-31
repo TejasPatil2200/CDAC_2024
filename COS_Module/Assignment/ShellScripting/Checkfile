@@ -1,0 +1,9 @@
+#! /bin/bash
+
+F=/home/cdac/BashScripting/Checkfile.txt
+if [ -e "$F" ]
+then
+echo The File $F exists
+else
+echo No such file named $F exists
+fi

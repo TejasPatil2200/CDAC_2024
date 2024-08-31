@@ -1,0 +1,12 @@
+#! /bin/bash
+
+
+a=1
+echo Numbers from 1 to 5 using while loop 
+
+while [ $a -lt 6 ]
+
+do 
+echo $a
+a=`expr $a + 1`
+done
