@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Add a Profile</h1>
+    <form id="productForm">
+        <input type="text" id="fname" placeholder="Enter your name" required />
+        <input type="text" id="ename" placeholder="Enter your email" required />
+        <input type="number" id="phone" placeholder="Enter your number" required />
+        <input type="text" id="loc" placeholder="Enter your location" required />
+        <textarea id="skills" placeholder="Add your skills" required></textarea>
+        <button type="submit">Add Profile</button>
+    </form>
+    <div id="message"></div>
+    <button onclick="window.location.href='allProducts.html'">View All Profiles</button>
+    <script src="app.js"></script>
+</body>
+</html>
